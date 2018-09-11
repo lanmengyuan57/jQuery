@@ -1,0 +1,43 @@
+	/*通用属性*/
+	*{margin: 0;padding:0;}
+	ul{list-style: none;}
+	a{text-decoration: none;}
+	/*头*/
+	.wrap>.headerL{width:100%;height:235px;position:relative;overflow:hidden;}
+	.wrap>.headerL>ul{width:80%;height: 45px;margin-left:120px;}
+	.wrap>.headerL>ul>li{float:right;width:90px;height:40px;text-align:center;line-height:40px;margin-top:6px;}
+	.wrap>.headerL>ul>li>a{display: block;font-size:15px;color:#272636;}
+	.wrap>.headerL>ul>div.left{float:left;height:50px;line-height:50px}
+	.wrap>.headerL>ul>div.left>span{font-size:25px;margin-left:45px;letter-spacing:2px;color: #272636;}
+	.wrap>.headerL>ul>div.left>img{width:32px;height:40px;position:absolute;top:3px;}
+	.wrap>.headerL>ul>li.first>a{color:#fff;background:#272636}
+	.wrap>.headerL>ul>img{display: block;}
+	/*标题*/
+	.wrap>.title{position:absolute;left:200px;margin-top:30px;opacity:0;}
+	.wrap>.title>h2{font-weight:lighter;color: #5A5A5A;font-size:23px;}
+	.wrap>.title>p{color:#ccc;font-size:14px;line-height:25px;margin:10px 0 0 -6px;}
+	/*主题*/
+	.wrap>.main{width:100%;height:635px;background:url(../img/jadd.jpg) no-repeat 0 0 /100% 100%;margin-top:132px;}
+	.wrap>.main>.mainLeft>ul{position:absolute;top:388px;left:300px;width:208px;height: 104px;}
+	.wrap>.main>.mainLeft>ul>li.mainLeft_Top{width: 100px;height:100px;position:absolute;left:52px;background:url(../img/leave_1.png) no-repeat 0 0 /100px 100px;}
+	.wrap>.main>.mainLeft>ul>li.mainLeft_Left{width: 100px;height:100px;position:absolute;top:52px;left:104px;background:url(../img/leave_2.png) no-repeat 0 0 /100px 100px;}
+	.wrap>.main>.mainLeft>ul>li.mainLeft_Right{width: 100px;height:100px;position:absolute;top:52px;left:0px;background:url(../img/leave_3a.png) no-repeat 0 0 /100px 100px;}
+	.wrap>.main>.mainLeft>ul>li.mainLeft_Right:hover{background:url(../img/leave_3.png) no-repeat 0 0 /100px 100px;}
+	.wrap>.main>.mainLeft>ul>li.mainLeft_Bottom{width: 100px;height:100px;position:absolute;top:104px;left:52px;background:url(../img/leave_4a.png) no-repeat 0 0 /100px 100px;}
+	.wrap>.main>.mainLeft>ul>li.mainLeft_Bottom:hover{background:url(../img/leave_4.png) no-repeat 0 0 /100px 100px;}
+	.wrap>.main>.mainLeft>ul>div{position: absolute;top:208px;text-align:center;line-height:40px}
+	.wrap>.main>.mainLeft>ul>div>h2{font-weight:lighter;color:#262736}
+	.wrap>.main>.mainLeft>ul>div>h3{font-weight:lighter;color:#ccc;}
+	.wrap>.main>.mainLeft>ul>div>p{color:#666;font-size:14px;line-height:24px;}
+
+	.wrap>.main>.mainRight{position:absolute;left:636px;top:476px;line-height:30px;}
+	.wrap>.main>.mainRight>p{color:#666}
+	.wrap>.main>.mainRight>input{outline:none;border: 1px dotted #666;background:transparent;width:500px;height:35px;margin-bottom:10px;font-size:16px;}
+	.wrap>.main>.mainRight>form{width:702px;}
+	.wrap>.main>.mainRight>form>input{outline:none;border: 1px dotted #666;background:transparent;width:500px;height:35px;margin-bottom:10px;font-size:16px;}
+	.wrap>.main>.mainRight>form>input.leave{width:100px;height:35px;background: #262736;color:#fff;font-size:14px;position:absolute;top:368px;left:0px}
+	.wrap>.main>.mainRight>form>p{color:#666}
+	.wrap>.main>.mainRight>form>textarea{width:500px;height: 100px;background:transparent;font-size:14px}
+	/*底部*/
+	.wrap>.bottom{width:100%;height:50px;background:#272636;text-align:center;line-height:50px;position:absolute;top:1000px;}
+	.wrap>.bottom{color:#D9D9D9;font-size:12px;}
